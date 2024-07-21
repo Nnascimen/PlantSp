@@ -1,0 +1,38 @@
+.layout img{
+    width: 100%;
+}
+
+.desconto{
+    position: absolute;
+    left: 10rem;
+    top: 15rem;
+    color: #fff;
+}
+
+.desconto h2{
+    font-size: 40px;
+}
+
+.desconto h1{
+    font-size: 100px;
+}
+
+.desconto h3{
+    font-size: 35px;
+}
+
+.desconto nav{
+    margin-top: 4rem;
+    display: flex;
+    gap: 15px;
+}
+
+.desconto a{
+    cursor: pointer;
+    opacity: 70%;
+}
+
+.desconto a:hover{
+    transition: 0.5s;
+    opacity: 100%;
+}
