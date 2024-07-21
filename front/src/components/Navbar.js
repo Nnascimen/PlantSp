@@ -5,8 +5,8 @@ import { MdShoppingCart } from "react-icons/md";
 import { IoPricetags } from "react-icons/io5";
 import { FaSearch } from "react-icons/fa";
 import { FaHeart } from "react-icons/fa";
-import styles from './Navbar.module.css'
-import style from './Global.css'
+import styles from './css/Navbar.module.css'
+import style from './css/Global.css'
 
 function Navbar () {
 

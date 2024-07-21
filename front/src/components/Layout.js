@@ -1,6 +1,6 @@
 import fundo from '../img/fundoplanta.png'
-import styles from './Layout.module.css'
-import style from './Global.css'
+import styles from './css/Layout.module.css'
+import style from './css/Global.css'
 
 function Layout (){
     return(

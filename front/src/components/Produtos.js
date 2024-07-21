@@ -1,6 +1,6 @@
 import planta from '../img/Planta.jpg'
-import styles from './Produtos.module.css'
-import style from './Global.css'
+import styles from './css/Produtos.module.css'
+import style from './css/Global.css'
 import { FaRegHeart } from "react-icons/fa";
 import { FaHeart } from "react-icons/fa";
 
