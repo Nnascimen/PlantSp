@@ -4,6 +4,7 @@ import { IoPerson } from "react-icons/io5";
 import { MdShoppingCart } from "react-icons/md";
 import { IoPricetags } from "react-icons/io5";
 import { FaSearch } from "react-icons/fa";
+import { FaHeart } from "react-icons/fa";
 import styles from './Navbar.module.css'
 import style from './Global.css'
 
@@ -28,6 +29,7 @@ function Navbar () {
             </div>
             <div className={styles.nav_right}>
                 <a title='Cupons promocionais'><IoPricetags /></a>
+                <a title='Itens favoritos'><FaHeart /></a>
                 <a title='Carrinho de compras'><MdShoppingCart /></a>
                 <a title='Entre em sua conta'><IoPerson /></a>      
             </div>

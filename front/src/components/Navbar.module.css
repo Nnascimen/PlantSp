@@ -6,13 +6,13 @@
     display: flex;
     align-items: center;
     background-color: #2F5B2E;
-    height: 150px;
+    height: 120px;
     width: 100%;
     justify-content: center;
 }
 
 .nav img{
-    width: 150px;
+    width: 200px;
     margin-right: 2rem;
 }
 
@@ -28,7 +28,7 @@
     justify-content: center;
     display: flex;
     gap: 15px;
-    height: 75px;    
+    height:60px;    
 }
 
 .sub_nav nav a{
@@ -47,7 +47,7 @@
 }
 
 .sub_nav main{
-    height: 75px;
+    height: 60px;
     align-items: flex-end;
     justify-content: center;
     display: flex;
@@ -83,7 +83,7 @@
 .nav_right{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 25px;
     height: 150px;
     width: 220px;
     margin-left: 5rem;
@@ -91,7 +91,7 @@
 
 .nav_right a{
     color: #fff;
-    font-size: 40px;
+    font-size: 35px;
     cursor: pointer;
     opacity: 80%;
 }
@@ -99,10 +99,4 @@
 .nav_right a:hover{
     opacity: 100%;
     transition: 0.5s;
-}
-
-.popup{
-    position: fixed;
-    top: 50%;
-    left: 50%;
 }
