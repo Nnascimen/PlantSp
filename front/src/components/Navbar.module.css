@@ -1,0 +1,108 @@
+*{
+    font-family: Poppins;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    background-color: #2F5B2E;
+    height: 150px;
+    width: 100%;
+    justify-content: center;
+}
+
+.nav img{
+    width: 150px;
+    margin-right: 2rem;
+}
+
+.sub_nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sub_nav nav{
+    align-items: flex-end;
+    justify-content: center;
+    display: flex;
+    gap: 15px;
+    height: 75px;    
+}
+
+.sub_nav nav a{
+    color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.sub_nav nav a:hover{
+    background-color: #fff;
+    border-radius: 15px 15px 0px 0px;
+    color: #2F5B2E;
+    transition: 0.6s;
+}
+
+.sub_nav main{
+    height: 75px;
+    align-items: flex-end;
+    justify-content: center;
+    display: flex;
+}
+
+.sub_nav input{
+    height: 45px;
+    width: 45rem;
+    border-radius: 10px 0px 0px 10px;
+    border: none;
+    border-bottom: 3.5px solid #c4c4c4;
+    padding: 5px 5px;
+    outline: none;
+    font-size: 14.5px;
+}
+
+.sub_nav button{
+    background-color: #fff;
+    border: none;
+    border-bottom: 3.5px solid #c4c4c4;
+    height: 45px;
+    width: 45px;
+    border-radius: 0px 10px 10px 0px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.sub_nav input::placeholder{
+    color: #b3b3b3;
+    font-size: 14.5px;
+}
+
+.nav_right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+    width: 220px;
+    margin-left: 5rem;
+}
+
+.nav_right a{
+    color: #fff;
+    font-size: 40px;
+    cursor: pointer;
+    opacity: 80%;
+}
+
+.nav_right a:hover{
+    opacity: 100%;
+    transition: 0.5s;
+}
+
+.popup{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}
